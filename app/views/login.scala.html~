@@ -12,7 +12,7 @@
 		</header>
 		@helper.form(routes.Application.authenticate) {
 			<h1>Sign in</h1>
-			@if(form.hasGlobalErrors) {
+			@if(form.hasGlobalErrors) { // für den Fall, dass ein Fehler vorliegt, wird der in diesem Div angezeigt
 	    		<p class="error">
 	        		@form.globalError.message
 	    		</p>

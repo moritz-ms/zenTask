@@ -10,6 +10,7 @@ import views.html.*;
 
 public class Application extends Controller {
 
+    @Security.Authenticated(Secured.class) //### nicht so richtig klar.
     public static Result index() {
         return ok(index.render( 
             Project.find.all(),
