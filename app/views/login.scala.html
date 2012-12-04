@@ -17,7 +17,7 @@
 	        		@form.globalError.message
 	    		</p>
 			}
-			@if(flash.contains("success")){
+			@if(flash.contains("success")){  <!-- Erlaubt uns eine Erfolgsmeldung zu generieren -->
 				<p class="success">
 					@flash.get("success")
 				</p>
