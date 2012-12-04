@@ -18,7 +18,7 @@ public class Application extends Controller {
 	//    Task.find.findTodoInvolving(request().username()), //limit the tasks to the one that the user is assigned to
 	//    User.find.byId(request().username())	//request.username() allows us to access the email adres of the current user 
 	//)); 
-      // Hallo hallo
+      // Hallo hallo ciao ciao
     }
 
     public static Result login() {
